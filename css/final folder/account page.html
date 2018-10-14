@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>FASIGHT - Digital Legacy Builder</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" style="color: #FF6633">faSight</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#will-builder">will builder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#start-now">Back to homepage!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="services">
+      <div class="container">
+        <div class="tabs">
+          <div class="tab-button-outer">
+            <ul id="tab-button">
+              <li><a href="#tab01">Personal Info</a></li>
+              <li><a href="#tab02">Distribution of Assets</a></li>
+              <li><a href="#tab03">Guarantors</a></li>
+              <li><a href="#tab04">Review digital will!</a></li>
+            </ul>
+          </div>
+          <div class="tab-select-outer">
+            <select id="tab-select">
+              <option value="#tab01">Personal Info</option>
+              <option value="#tab02">Distribution of Assets</option>
+              <option value="#tab03">Guarantors</option>
+              <option value="#tab04">Review digital will!</option>
+            </select>
+          </div>
+
+          <div id="tab01" class="tab-contents">
+            <!-- personal info -->
+            <h2>Personal Info</h2>
+            <div class="row">
+              <!-- column 8 -->
+              <div class="col-8">
+               <form>
+                <div class="form-group">
+                  <label for="input-name">What is your full Name?</label>
+                  <input type="text" class="form-control" id="input-name" placeholder="Your full legal name">
+                </div>
+                <div class="form-group">
+                  <label for="input-icnumber">What is your IC number?</label>
+                  <input type="password" class="form-control" id="input-icnumber" placeholder="Your IC number">
+                </div>
+                <div class="form-group">
+                  <label for="input-address">What is your home address?</label>
+                  <input type="text" class="form-control" id="input-address" placeholder="Your home address">
+                </div>
+                 <div class="form-group">
+                  <label for="input-gender">What is your gender?</label>
+                  <input type="text" class="form-control" id="input-gender" placeholder="Your gender">
+                </div>
+                <div class="form-group">
+                  <label for="input-phonenumber">What is your phone number?</label>
+                  <input type="number" class="form-control" id="input-phonenumber" placeholder="Your phonenumber">
+                </div>
+                
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form> 
+              </div>
+              <!-- column 8 -->
+              <!-- column 4 -->
+              <div class="col-4">
+                 <!-- IC front -->
+                 <div style="background-color: lightgrey; width: 300px; height: 160px;">
+                 <center style="padding-top: 50px;"><i class="far fa-4x fa-credit-card"></i></center>
+                 </div>
+                 </br>
+                 <button type="button" class="btn btn-dark">Upload IC Front</button>
+                 <!-- IC front -->
+                 </br>
+                 <!-- IC back -->
+                  </br>
+                 <div style="background-color: lightgrey; width: 300px; height: 160px;">
+                 <center style="padding-top: 50px;"><i class="far fa-4x fa-credit-card"></i></center>
+                 </div>
+                 </br>
+                 <button type="button" class="btn btn-dark">Upload IC Back</button>
+                 <!-- IC back -->
+               
+              </div>
+              <!-- column 4 -->
+
+            </div>
+            <!-- personal info -->
+          </div>
+
+          <div id="tab02" class="tab-contents">
+            <h2>Distribution of Assets</h2>
+            
+            <!-- distributions of assets -->
+          
+              <p>Enter Assets that you would like to distribute</br> to the next of kin?</p>
+              <div class="content">
+                  <form id="todo-add-form" class="new-todo">
+                    <input id="todo-add-input" class="input" type="text" placeholder="What needs to be done?">
+                    <button id="todo-add-button" type="submit" class="button">
+                      +
+                    </button>
+                  </form>
+                  <ul id="todo-list" class="todo-list"></ul>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            
+            <!-- distributions of assets -->
+
+          </div>
+
+          <div id="tab03" class="tab-contents">
+            <!-- personal info -->
+            <h2>Guarantor</h2>
+            <div class="row">
+              <!-- column 8 -->
+              <div class="col-8">
+               <form>
+                <div class="form-group">
+                  <label for="input-guarantor">Who do you wish to name as your guarantor?</label>
+                  <input type="text" class="form-control" id="input-guarantor" placeholder="Your full legal guarantor name">
+                </br>
+                  <input type="text" class="form-control" id="input-relationship" placeholder="relationship">
+                </br>
+                  <input type="text" class="form-control" id="input-guarantor-icnumber" placeholder="guarantor ic number">
+                </br>
+                  <input type="text" class="form-control" id="input-guarantor-address" placeholder="guarantor address">
+                </br>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I do not want a guarantor!</label>
+                </div>
+                </div>
+                
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form> 
+              </div>
+              <!-- column 8 -->
+              <!-- column 4 -->
+              <div class="col-4">
+              <center><i class="fas fa-4x fa-user-shield"></i></center>
+            </br>
+              <p>
+               A Guarantor is the person who will carry out the wishes in your Will. Pick someone responsible. He or she needs to be at least 21 years old, and cannot be a bankrupt.
+              </p>
+              </div>
+              <!-- column 4 -->
+          </div>
+          <div id="tab04" class="tab-contents">
+            <h2>Review digital will!</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quos aliquam consequuntur, esse provident impedit minima porro! Laudantium laboriosam culpa quis fugiat ea, architecto velit ab, deserunt rem quibusdam voluptatum.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
